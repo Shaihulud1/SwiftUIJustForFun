@@ -13,6 +13,8 @@
 		CFA666FC255B416700FD2E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA666FB255B416700FD2E89 /* Assets.xcassets */; };
 		CFA666FF255B416700FD2E89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA666FE255B416700FD2E89 /* Preview Assets.xcassets */; };
 		CFA66702255B416700FD2E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA66700255B416700FD2E89 /* LaunchScreen.storyboard */; };
+		CFA6670C255B49C900FD2E89 /* Goldman-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFA6670B255B49C900FD2E89 /* Goldman-Regular.ttf */; };
+		CFD3FE98255B55F200258F90 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3FE97255B55F200258F90 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CFA666FE255B416700FD2E89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFA66701255B416700FD2E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFA66703255B416700FD2E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA6670B255B49C900FD2E89 /* Goldman-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goldman-Regular.ttf"; sourceTree = "<group>"; };
+		CFD3FE97255B55F200258F90 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		CFA666F4255B416400FD2E89 /* SwiftUIJustForFun */ = {
 			isa = PBXGroup;
 			children = (
+				CFA6670A255B499600FD2E89 /* fonts */,
 				CFA666F5255B416400FD2E89 /* AppDelegate.swift */,
 				CFA666F7255B416400FD2E89 /* SceneDelegate.swift */,
 				CFA666F9255B416400FD2E89 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				CFA66700255B416700FD2E89 /* LaunchScreen.storyboard */,
 				CFA66703255B416700FD2E89 /* Info.plist */,
 				CFA666FD255B416700FD2E89 /* Preview Content */,
+				CFD3FE97255B55F200258F90 /* SwiftUIView.swift */,
 			);
 			path = SwiftUIJustForFun;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				CFA666FE255B416700FD2E89 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFA6670A255B499600FD2E89 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CFA6670B255B49C900FD2E89 /* Goldman-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA6670C255B49C900FD2E89 /* Goldman-Regular.ttf in Resources */,
 				CFA66702255B416700FD2E89 /* LaunchScreen.storyboard in Resources */,
 				CFA666FF255B416700FD2E89 /* Preview Assets.xcassets in Resources */,
 				CFA666FC255B416700FD2E89 /* Assets.xcassets in Resources */,
@@ -147,6 +162,7 @@
 			files = (
 				CFA666F6255B416400FD2E89 /* AppDelegate.swift in Sources */,
 				CFA666F8255B416400FD2E89 /* SceneDelegate.swift in Sources */,
+				CFD3FE98255B55F200258F90 /* SwiftUIView.swift in Sources */,
 				CFA666FA255B416400FD2E89 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
